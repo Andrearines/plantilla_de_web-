@@ -1,7 +1,6 @@
 <?php
 
-require"includes/config/database.php";
-$db = conectaDB();
+require"includes/app.php";
 
 $email="correo@gmail.com";
 $password=password_hash("1234",PASSWORD_DEFAULT);

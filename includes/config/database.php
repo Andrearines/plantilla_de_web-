@@ -1,11 +1,9 @@
 <?php
 
 function conectaDB(): mysqli{
-    $db = mysqli_connect("localhost","usuario","contraseña","base de datos");
+    $db = new mysqli("localhost","usuario","contraseña","base de datos");
 
-    if($db){
-        echo"<p>conecion exitosa con la base de datos</p>";
-    }else{
+    if(!$db){
         echo"conecion fallida";
         exit;
     }

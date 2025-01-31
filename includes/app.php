@@ -1,3 +1,6 @@
 <?php 
-define("templates_url",__DIR__."/templetes");
-define("funciones_url",__DIR__."/funciones.php");
+require "funciones.php";
+require"config/database.php";
+require __DIR__."/../vendor/autoload.php";
+
+$db=conectaDB();
