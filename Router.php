@@ -1,6 +1,7 @@
 <?php
 
 namespace MVC;
+
 class Router{
 
     public $rutasGET=[];
