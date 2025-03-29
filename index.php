@@ -1,10 +1,10 @@
 <?php 
-require "includes/app.php";
-template("header")
+require "../includes/app.php";
+template("header");
 ?>
 <body>
     
-<?php template("footer") ?>
+<?php template("footer"); ?>
 <script src=""></script>
 </body>
 </html>
